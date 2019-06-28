@@ -1,0 +1,57 @@
+.nav-brand img{
+    max-height: 65px;
+    width: auto;
+}
+.main-header-area{
+    overflow: hidden;
+}
+.modal-content .close{
+    left: 15px;
+    right: auto;
+    border: 0;
+
+}
+.modal-content .close:hover{
+    background: transparent !important;
+    color: #3b8bcf !important;
+}
+#register .apply-form{
+    padding: 0;
+}
+.pb-10{
+    padding-bottom: 10px !important;
+}
+.breakpoint-on .classy-navbar .classy-menu{
+    overflow-y: hidden;
+}
+.classynav ul li a{
+    padding: 0 7px;
+}
+.main-header-area .classynav ul li a{
+    font-size: 16px;
+}
+.why-choose .single-choose p{
+    font-size: 16px;
+    color: #fff;
+}
+.copyright-area ul li,
+.copyright-area ul li:last-child{
+    border: 0;
+}
+.single-teacher img{
+    width: 100%;
+    max-height: 277px;
+    object-fit: cover;
+}
+.single-teacher{
+    height: 100%;
+}
+.single-teacher .teacher-content{
+    padding-bottom: 0;
+}
+.single-teacher .teacher-content h3{
+    color: #000;
+}
+.copyright-area{
+    margin-top: 0;
+}
