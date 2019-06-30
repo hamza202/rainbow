@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="assets/css/my-style.css">
     <title>rainbow</title>
 
-    <link rel="icon" type="image/png" href="assets/img/logo.png">
+    <link rel="icon" type="image/png" href="assets/img/logo2.png">
 </head>
 
 <body>
@@ -77,7 +77,7 @@
             <nav class="classy-navbar justify-content-between" id="EduStudyNav">
 
                 <!-- Logo -->
-                <a class="nav-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                <a class="nav-brand" href="/"><img src="assets/img/logo.png" alt="logo"></a>
 
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
@@ -105,6 +105,7 @@
 
                             <li><a href="#5" class="navigation__link">فريق العمل</a></li>
 
+                            <li><a href="#6" class="navigation__link">معلومات التواصل</a></li>
                         </ul>
                     </div>
                     <!-- Nav End -->
@@ -133,7 +134,7 @@
                     والتسويق الالكتروني ، سلوكيات الطفل ، لغة الجسد ، سلوكيات المراهق والتعامل معها ، الحساب الذهني ،
                     شطرنج ، الحقيبة المدرسية
                 </p>
-                <a href="#3"  class="btn btn-primary navigation__link">سجل الأن</a>
+                <a href="#3" class="btn btn-primary navigation__link">سجل الأن</a>
             </div>
 
             <div class="watch-video">
@@ -275,9 +276,11 @@
                         <div class="col-lg-6 col-md-6 p-0">
                             <div class="event-content">
                                 <h3>متخصصون في مناهج التوجيهي والترميم الاكاديمي</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="mb-0">لم يعد التوجيهي مع الرينبو بعبعاً ، فمع طاقمنا الأكاديمي المختار بعناية
+                                    أنتم بأيد أمينة</p>
+                                <p>
+                                    أسئلة متوقعة / إجابات نموذجية / تحضير / تأسيس / ترميم ماضي أكاديمي متعثر
+                                </p>
                                 <a href="#register" data-toggle="modal" data-target="#register"
                                    data-course="مناهج التوجيهي" class="r-course btn btn-primary">سجل الأن <i
                                             class="icofont-rounded-double-left"></i></a>
@@ -302,9 +305,9 @@
                         <div class="col-lg-6 col-md-6 p-0">
                             <div class="event-content">
                                 <h3>اشراف وتدريب تربوي واكاديمي لطلاب دول الخليج</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>بيئة تعليمية وتربوية رائدة في الأردن ، حيث نفهم تعثر أبناء المغتربين العائدون من دول
+                                    شقيقة ، ونحرص على تأمين سبل الاندماج السريع مع مناهجنا الأردنية والإنخراط بزملاء جدد
+                                    وأجواء دراسية مختلفة ، حيث نخدم كافة المناهج وبرامج التعليم الدولي IG & SAT</p>
 
                                 <a href="#register" data-toggle="modal" data-target="#register"
                                    data-course="اشراف وتدريب تربوي واكاديمي لطلاب دول الخليج"
@@ -333,10 +336,13 @@
                         <div class="col-lg-6 col-md-6 p-0">
                             <div class="event-content">
                                 <h3>اللغة (انجليزي – فرنسي – روسي – اسباني)</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+                                <p class="mb-1">
+                                    حيث تعتبر اللغات ركيزة أساسية بغض النظر عن التوجه سواء تعليمي أو ثقافي ، قمنا بتأمين
+                                    باقة مميزة من اللغات ترعاها كوادر ماهرة ومتخصصة.
+                                </p>
+                                <p>
+                                    العديد من البرامج في هذا الحقل بحسب الحاجة وإختبار تحديد المستوى المجاني
+                                </p>
                                 <a href="#register" data-toggle="modal" data-target="#register"
                                    data-course="اللغة (انجليزي – فرنسي – روسي – اسباني)"
                                    class="r-course btn btn-primary">سجل الأن <i
@@ -363,10 +369,8 @@
                         <div class="col-lg-6 col-md-6 p-0">
                             <div class="event-content">
                                 <h3>التربية الخاصة (صعوبات التعلم – فرط الحركة – النسيان)</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>للرينبو باع طويل في هذا المجال ، حيث يتلقى أبناءنا الطلبة رعاية ممنهجة وبرامج متخصصة
+                                    تعنى بكل حالة على حدى بحسب الحالة ومستواها.</p>
 
                                 <a href="#register" data-toggle="modal" data-target="#register"
                                    data-course="التربية الخاصة (صعوبات التعلم – فرط الحركة – النسيان)"
@@ -394,10 +398,8 @@
                         <div class="col-lg-6 col-md-6 p-0">
                             <div class="event-content">
                                 <h3>تقوية ومراجعات امتحانات المناهج كافة لجميع المراحل</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>حيث يتلقى طلبتنا كل أنواع الدعم اللازم للتسلح في مسيرتهم التعليمية بكل ثقة وثبات ، من
+                                    حصص مكثفة وتأمين مراجع وساعات اضافية للتركيز على النقاط الهامة في امتحاناتهم.</p>
 
                                 <a href="#register" data-toggle="modal" data-target="#register"
                                    data-course="تقوية ومراجعات امتحانات المناهج كافة لجميع المراحل"
@@ -425,11 +427,11 @@
                         <div class="col-lg-6 col-md-6 p-0">
                             <div class="event-content">
                                 <h3>تقوية ومراجعات المناهج الدولية SAT & IG</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+                                <p class="mb-1">تخصصنا في تقوية صفوف ومناهج التعليم الدولي جعلت من الرينبو خير مقصد
+                                    لكم</p>
+                                <p>
+                                    يتم عمل فحص مستوى (مجاني) للوقوف على متطلبات كل طالب
+                                </p>
                                 <a href="#register" data-toggle="modal" data-target="#register"
                                    data-course="تقوية ومراجعات المناهج الدولية SAT & IG"
                                    class="r-course btn btn-primary">سجل الأن <i
@@ -456,10 +458,10 @@
                         <div class="col-lg-6 col-md-6 p-0">
                             <div class="event-content">
                                 <h3> إدارة الاعمال والتسويق الالكتروني</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="mb-1">بإشراف محاضرين ومحاضرات متخصصين وخطط زمنية ممنهجه نساعد من خلالها شباب
+                                    اليوم لتخطي عقبات تميزهم في سوق العمل المنتهي بالتوظيف وتساعد الموظفين على الإبداع
+                                    ومواكبة عصرنا</p>
+                                <p>يمكنكم الاطلاع على الجداول الزمنية لكل دورة بزيارة مركزنا والحصول على المستجدات</p>
 
                                 <a href="#register" data-toggle="modal" data-target="#register"
                                    data-course="إدارة الاعمال والتسويق الالكتروني"
@@ -487,11 +489,10 @@
                         <div class="col-lg-6 col-md-6 p-0">
                             <div class="event-content">
                                 <h3> الحقيبة المدرسية (المدرسة عليكم والتدريس علينا)</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+                                <p>يستقبل مركزنا طلبته ضمن هذا البرنامج بعد المدرسة وتناولهم وجبة الغذاء لعمل مراجعات
+                                    وتحضير وواجبات والتحضير للامتحانات ومراجعاتها لكافة المواد والمراحل العمرية على مدار
+                                    اليوم .. ونودعهم عائدين الى منازلهم وقت العشاء والخلود للنوم .. فلم تعد ربة المنزل
+                                    مسؤولة على التدريس بجانب مهامها الحياتية والاسرية.</p>
                                 <a href="#register" data-toggle="modal" data-target="#register"
                                    data-course="الحقيبة المدرسية (المدرسة عليكم والتدريس علينا)"
                                    class="r-course btn btn-primary">سجل الأن <i
@@ -501,6 +502,41 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-12">
+                <div class="single-event ">
+                    <div class="row m-0">
+                        <div class="col-lg-6 col-md-6 p-0">
+                            <figure>
+                                <div>
+                                    <span class="image"
+                                          style="background-image: url(assets/img/image11.jpg);"></span>
+                                    <img src="assets/img/image9.jpg" alt="event">
+                                </div>
+
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 p-0">
+                            <div class="event-content">
+                                <h3>دورات اللغة العربية لغير الناطقين بها</h3>
+
+                                <p class="mb-0">حيث نخدم قطاعات التعليم الجامعي لغير العرب والشركات الأجنبية والسياحة والعمالة
+                                    الوافدة ضمن برامج مكثفة ومتخصصة حسب الحاجة وبجداول زمنية مرنة تناسب الجميع</p>
+
+                                <p>
+                                    يتضمن هذا الحقل العديد من النشاطات الثقافية والترفيهية
+                                </p>
+
+                                <a href="#register" data-toggle="modal" data-target="#register"
+                                   data-course="دورات اللغة العربية لغير الناطقين بها"
+                                   class="r-course btn btn-primary">سجل الأن <i
+                                            class="icofont-rounded-double-left"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-lg-12">
                 <div class="single-event ">
                     <div class="row m-0">
@@ -518,10 +554,9 @@
                         <div class="col-lg-6 col-md-6 p-0">
                             <div class="event-content">
                                 <h3>تدريب للتربية بالحب</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                                <p>والعديد من الدورات المجدولة والفاعلة لخدمة الأسرة الأردنية وذلك بالتعاون مع أكاديمية
+                                    السنا والمستشارة النفسية د. سناء عيسى</p>
 
                                 <a href="#register" data-toggle="modal" data-target="#register"
                                    data-course="تدريب للتربية بالحب"
@@ -549,10 +584,8 @@
                         <div class="col-lg-6 col-md-6 p-0">
                             <div class="event-content">
                                 <h3>كيف تعامل ابنك او ابنتك في سن المراهقة</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>والعديد من الدورات المجدولة والفاعلة لخدمة الأسرة الأردنية وذلك بالتعاون مع أكاديمية
+                                    السنا والمستشارة النفسية د. سناء عيسى</p>
 
                                 <a href="#register" data-toggle="modal" data-target="#register"
                                    data-course="كيف تعامل ابنك او ابنتك في سن المراهقة"
@@ -700,12 +733,111 @@
                 </div>
             </div>
 
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="single-teacher">
+                    <img src="assets/img/t7.jpg" alt="teacher">
 
+                    <div class="teacher-content">
+                        <h3>م. نادر أبوعيطه</h3>
+                        <span>المدير العام </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="single-teacher">
+                    <img src="assets/img/t8.jpg" alt="teacher">
+
+                    <div class="teacher-content">
+                        <h3>م. راغد نادر</h3>
+                        <span>نائب المدير العام </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="single-teacher">
+                    <img src="assets/img/t9.jpg" alt="teacher">
+
+                    <div class="teacher-content">
+                        <h3>أ. مكرم علاء الدين</h3>
+                        <span>المشرف الأكاديمي </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="single-teacher">
+                    <img src="assets/img/t10.jpg" alt="teacher">
+
+                    <div class="teacher-content">
+                        <h3>أ. سليمان أبوعيطه</h3>
+                        <span>مشرف صفوف أولية </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 <!-- End Teacher Area -->
 
+<!-- Start Contact Area -->
+<section class="contact-area page-section" id="6">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h3>معلومات التواصل</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <div class="contact-box h-100">
+                    <div class="icon">
+                        <i class="icofont-phone"></i>
+                    </div>
+
+                    <div class="content">
+                        <h4>هاتف / محمول</h4>
+                        <p><a href="tel:065603939">065603939</a></p>
+                        <p><a href="tel:0770907770">0770907770</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="contact-box h-100">
+                    <div class="icon">
+                        <i class="icofont-envelope"></i>
+                    </div>
+
+                    <div class="content">
+                        <h4>بريد إلكتروني</h4>
+                        <p><a href="mailto:info@rainbowcc.co">info@rainbowcc.co </a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="contact-box h-100">
+                    <div class="icon">
+                        <i class="icofont-google-map"></i>
+                    </div>
+
+                    <div class="content">
+                        <h4>عنوان</h4>
+                        <p>
+                            عمان - تلاع العلي - شارع سفيان بن عوف - عمارة ١٩
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div id="map"></div>
+</section>
+<!-- End Contact Area -->
 
 <!-- Start Footer Area -->
 <footer class="footer-area">
@@ -719,11 +851,11 @@
 
                 <div class="col-lg-5 col-md-5">
                     <ul class="social">
-                        <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                        <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                        <li><a href="#"><i class="icofont-linkedin"></i></a></li>
-                        <li><a href="#"><i class="icofont-google-plus"></i></a></li>
-                        <li><a href="#"><i class="icofont-pinterest"></i></a></li>
+                        <li><a href="https://www.facebook.com/rainbowcc.co"><i class="icofont-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/RainbowAmman"><i class="icofont-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC6pjULncddr7_Df9GnKwYfA"><i
+                                        class="icofont-youtube-play"></i></a></li>
+                        <li><a href="https://www.instagram.com/rainbowcc.co"><i class="icofont-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -758,7 +890,8 @@
                             <input type="text" name="address" class="form-control" placeholder="عنوان">
                         </div>
                         <div class="form-group">
-                            <input type="text" name="course" hidden class="form-control course-input" value="" placeholder="دورة">
+                            <input type="text" name="course" hidden class="form-control course-input" value=""
+                                   placeholder="دورة">
                         </div>
                     </div>
                 </div>
@@ -797,6 +930,11 @@
 <script src="assets/js/contact-form-script.js"></script>
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
+
+<script async="" defer=""
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwQWgqTGypi82vAyP97l2O5Zi_RBiVA5E&amp;callback=initMap"></script>
+
+<script src="assets/js/edufield-map.js"></script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -831,8 +969,8 @@
 </script>
 
 <script>
-    $(document).ready(function() {
-        $('a.navigation__link').bind('click', function(e) {
+    $(document).ready(function () {
+        $('a.navigation__link').bind('click', function (e) {
             e.preventDefault(); // prevent hard jump, the default behavior
 
             var target = $(this).attr("href"); // Set the target as variable
@@ -840,7 +978,7 @@
             // perform animated scrolling by getting top-position of target-element and set it as scroll target
             $('html, body').stop().animate({
                 scrollTop: $(target).offset().top
-            }, 600, function() {
+            }, 600, function () {
                 location.hash = target; //attach the hash (#jumptarget) to the pageurl
             });
 
@@ -848,7 +986,7 @@
         });
     });
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         var scrollDistance = $(window).scrollTop();
 
         // Show/hide menu on scroll
@@ -859,7 +997,7 @@
         //}
 
         // Assign active class to nav links while scolling
-        $('.page-section').each(function(i) {
+        $('.page-section').each(function (i) {
             if ($(this).position().top <= scrollDistance) {
                 $('.navigation a.active').removeClass('active');
                 $('.navigation a').eq(i).addClass('active');
